@@ -24,6 +24,7 @@ const Coins = () => {
     setLoading(true);
   };
 
+
   const btns = new Array(132).fill(1);
 
   useEffect(() => {
@@ -72,12 +73,13 @@ const Coins = () => {
               />
             ))}
           </HStack>
+           {/* Pagination */}
           <HStack w={"full"} overflowX={"auto"} padding={"8"}>
             {btns.map((item, index) => (
               <Button
               key={index}
-                bgColor={"whiteAlpha.800"}
-                color={"blackAlpha.900"}
+                color={"whiteAlpha.800"}
+                bgColor={"blackAlpha.900"}
                 onClick={() => changePage(index + 1)}
               >
                 {index + 1}
