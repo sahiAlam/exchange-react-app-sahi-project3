@@ -12,8 +12,6 @@ const ExchangeCard = ({ name, image, rank, url }) => {
           m={"4"}
           borderRadius={"lg"}
           transition={"all 0.3s"}
-          border= {"1px"}
-          borderColor={"gray.700"}
           css={{
             "&:hover": {
               transform: "scale(1.1)",
