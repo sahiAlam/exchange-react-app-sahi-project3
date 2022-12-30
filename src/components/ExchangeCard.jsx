@@ -4,13 +4,13 @@ import React from "react";
 const ExchangeCard = ({ name, image, rank, url }) => {
   return (
     <>
-      <a href={url} target={"blank"} border={"1px solid"}> 
+      <a href={url} target={"blank"} border={"1px solid"}>
         <VStack
           w={"52"}
           p={"10"}
           shadow={"lg"}
           m={"4"}
-          borderRadius={"lg"}
+          borderRadius={"xl"}
           transition={"all 0.3s"}
           css={{
             "&:hover": {

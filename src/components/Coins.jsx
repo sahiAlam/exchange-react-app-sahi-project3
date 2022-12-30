@@ -4,7 +4,6 @@ import axios from "axios";
 import { Button, Container, HStack, Radio, RadioGroup } from "@chakra-ui/react";
 
 import Loader from "./Loader";
-import ExchangeCard from "./ExchangeCard";
 import ErrorComponent from "./ErrorComponent";
 import CoinCard from "./CoinCard";
 

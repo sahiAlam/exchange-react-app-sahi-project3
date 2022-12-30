@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 const CoinCard = ({ id, name, image, symbol, price, currencySymbol = "₹" }) => {
   return (
     <>
-      <Link to={`coin/${id}`} target={"blank"} border={"1px solid"}> 
+      <Link to={`/coin/${id}`} target={"blank"} border={"1px solid"}> 
         <VStack
           w={"52"}
           p={"10"}
           shadow={"lg"}
           m={"4"}
-          borderRadius={"lg"}
+          borderRadius={"xl"}
           transition={"all 0.3s"}
           css={{
             "&:hover": {
