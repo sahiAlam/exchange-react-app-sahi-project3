@@ -13,7 +13,7 @@ const ErrorComponent = ({ message }) => {
         status="error"
         width={"container.sm"}
         pos={"fixed"}
-        bottom= {"2"}
+        bottom={"2"}
         borderRadius={"md"}
       >
         <AlertIcon />
