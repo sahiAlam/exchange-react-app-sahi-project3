@@ -1,10 +1,22 @@
 import React from "react";
-import { Text } from "@chakra-ui/react";
+import {
+  Box,
+  Alert,
+  AlertIcon,
+  AlertTitle,
+  AlertDescription,
+} from "@chakra-ui/react";
 
 const Error = () => {
   return (
     <>
-      <Text>oops!! Wrong url.. Please chech Your URL first</Text>
+      <Box w={"full"} h={"100vh"}>
+        <Alert status="error">
+          <AlertIcon />
+          <AlertTitle>Oops!! 404</AlertTitle>
+          <AlertDescription>Page Not Found</AlertDescription>
+        </Alert>
+      </Box>
     </>
   );
 };

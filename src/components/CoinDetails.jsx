@@ -106,7 +106,8 @@ const CoinDetails = () => {
         <Loader />
       ) : (
         <>
-          <Box borderWidth={"1"} w={"full"}>
+          {/* Chart */}
+          <Box borderWidth={"1"} w={"full"} mt={["2", "5"]}>
             <Chart arr={chartArray} currency={currencySymbol} days={days} />
           </Box>
 
@@ -140,7 +141,7 @@ const CoinDetails = () => {
             />
 
             <Stat>
-              <StatLabel>{coin.name}</StatLabel>
+              <StatLabel fontSize={["16", "22"]}>{coin.name}</StatLabel>
               <StatNumber>
                 {currencySymbol}
                 {coin.market_data.current_price[currency]}

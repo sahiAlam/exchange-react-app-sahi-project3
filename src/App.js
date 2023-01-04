@@ -20,6 +20,7 @@ function App() {
           <Route path="/coins" element={<Coins />} />
           <Route path="/exchanges" element={<Exchanges />} />
           <Route path="/coin/:id" element={<CoinDetails />} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </Router>
