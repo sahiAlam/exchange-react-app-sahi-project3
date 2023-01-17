@@ -78,7 +78,7 @@ const CoinDetails = () => {
         break;
     }
   };
-
+  
   useEffect(() => {
     const fetchCoins = async () => {
       try {
